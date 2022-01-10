@@ -1,0 +1,81 @@
+/*
+  Some styles like border-style and border-width are from
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Reference and its
+  associated websites, like
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+*/
+
+/*
+  Styles file adapted from the owner's CSE 154 Creative Project 1.
+*/
+
+header {
+  border-style: double none double none;
+  border-width: 20px;
+  border-color: rgb(25, 0, 255);
+}
+
+header h1 {
+  font-family: "Ephesis", cursive;
+  font-size: 80px;
+}
+
+iframe {
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  width: 50%;
+}
+
+/*
+  Styles applying only to the about page
+*/
+
+blockquote {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.square-pic {
+  width: 30%;
+}
+
+/*
+  Styles applying to all files
+*/
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+section {
+  border-style: inset;
+  border-width: 10px;
+  padding: 20px 20px 0px 20px;
+  margin: 40px 0px 40px 0px;
+}
+
+section > p {
+  margin-bottom: 50px;
+}
+
+.work-exp > p {
+  margin-bottom: 15px;
+}
+
+blockquote, footer {
+  background-color: rgb(255, 211, 92);
+  padding: 30px;
+  width: 50%;
+}
+
+h2, h3 {
+  font-size: 28px;
+  text-decoration: underline;
+}

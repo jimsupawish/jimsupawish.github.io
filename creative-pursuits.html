@@ -1,0 +1,86 @@
+<!--
+  ***
+  creative-pursuits.html adapted from the owner's CSE 154 Creative Project 1.
+  ***
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <title>Jim's Creative Pursuits</title>
+  </head>
+  <body>
+    <!--
+      Using some sample code from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
+      as guidance on the introduction part.
+    -->
+
+    <header>
+      <h1>Jim's Creative Pursuits</h1>
+
+      <p>
+        This is a space where I showcase my creative pursuits in photography, digital art, and
+        music. Hopefully, you enjoy them! :D
+      </p>
+    </header>
+
+    <section>
+      <h2>Photography</h2>
+      <img src="https://i.redd.it/1i4irstkhbm21.jpg"
+        alt="Photo of a sunset amidst the UW Monoliths and another building.">
+      <p>
+        The above image was the image that I posted myself on Reddit nearly two years ago!
+        I just rented a camera kit from UW STLP, and found an opportunity to take this image
+        on the 8th floor of McMahon Hall in my freshman year.
+      </p>
+
+      <img src="https://i.redd.it/s4wei765cei21.jpg"
+        alt="Panoramic image of the Quad with the clear blue sky and sunlight shining through">
+      <p>
+        This was also the image I posted onto Reddit. I took this panoramic image in my freshman
+        year! The sky was SO nice and there is not a lot of people on the quad too.
+      </p>
+    </section>
+
+    <section>
+      <h2>Digital Art</h2>
+      <img src="img/multiple-me.jpg"
+        alt="Image of 11 versions of Jim performing various kinds of actions in a lounge room.">
+      <p>
+        I took the images myself in CSE Undergraduate lounge on Jan 1 2020, when no
+        one was there. I made this stacked image in GIMP.
+      </p>
+
+      <img src="img/skyscraper-sketch.jpg"
+        alt="This is a sketch-style image of a Bangkok skyline full with skyscrapers.">
+      <p>
+        I originally took this image in one Bangkok skyscraper, and I processed it using
+        a self-made image manipulator program.
+      </p>
+    </section>
+
+    <section>
+      <h2>Music</h2>
+
+      <!--
+        Embedded link modified from the embedded video sharing option of Youtube. The
+        modifications are based on iframe documentation
+        (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) and
+        Feature Policy (https://developer.mozilla.org/en-US/docs/Web/HTTP/Feature_Policy)
+      -->
+      <iframe src="https://www.youtube-nocookie.com/embed/gMnBjVGn2uo"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
+        allowfullscreen>
+      </iframe>
+
+      <p>
+        I composed the song and have it recorded through Musescore! This is probably the
+        first song ever that I felt confident in sharing.
+      </p>
+    </section>
+  </body>
+</html>
